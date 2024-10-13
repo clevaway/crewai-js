@@ -1,0 +1,35 @@
+{
+  "name": "crewai-js",
+  "version": "0.0.1",
+  "description": "Unofficial CrewAI JavaScript SDK",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc -b",
+    "watch": "tsc-watch --onSuccess 'npm run build'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clevaway/crewai-js.git"
+  },
+  "keywords": [
+    "crewai-js",
+    "crewai",
+    "ai-agents"
+  ],
+  "author": "clevaway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clevaway/crewai-js/issues"
+  },
+  "homepage": "https://github.com/clevaway/crewai-js#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.67.3",
+    "ts-node": "^10.9.2"
+  }
+}

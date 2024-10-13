@@ -1,4 +1,4 @@
-# CrewAI-JS: Unofficial JavaScript SDK 🚀
+# CrewAI-JS 🚀
 
 **CrewAI-JS** is an unofficial SDK inspired by the [CrewAI Python framework](https://github.com/crewAIInc/crewAI). This library brings the multi-agent AI system experience to JavaScript/TypeScript, allowing developers to orchestrate AI agents, tasks, and workflows in Node.js or browser environments.
 
